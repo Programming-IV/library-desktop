@@ -1,12 +1,13 @@
 import "./Login.css";
-import libraryBackground from './assets/library-cover.png';
+import libraryBackground from '../../assets/library-cover.png';
 import ButtonWithBackground from "../commons/buttons/ButtonWithBackground";
 import ButtonWithoutBackground from "../commons/buttons/ButtonWithoutBackground";
 import Input from "../commons/email-input/Input";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
-function App() {
+function Login() {
   return (
-    <div className='container'>
+    <div className='container-login'>
       <img src={libraryBackground} alt="library" className='image' />
       <div className="input">
         <h1 className="h1">Bienvenido de vuelta</h1>
@@ -14,7 +15,9 @@ function App() {
         <Input content="Contraseña" placeholder="Ingresa tu contraseña" type="password" />
         <div className="question-account">
           <p>¿Todavía no tienes una cuenta?</p>
-          <ButtonWithoutBackground text="Crea una ahora" />
+          <Link to="/signup">
+            <ButtonWithoutBackground text="Crea una ahora" />
+          </Link>
         </div>
         <ButtonWithBackground className="ButtonWithBackground" text="Iniciar sesion" />
       </div>
@@ -22,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default Login;

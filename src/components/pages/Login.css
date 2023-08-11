@@ -1,34 +1,34 @@
 html, body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    background: #16191C;
-    height: 100vh;
-    color: white;
-    font-family: 'Segoe UI', Roboto;
-  }
-  
-  .image {
-    max-height: 100vh;
-    object-fit: contain;
-  }
-  
-  .input {
-    padding: 20vh;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .question-account {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  margin: 0;
+  padding: 0;
+}
+
+.container-login {
+  display: grid;
+  grid-template-columns: 1fr auto; /* Reversed order of columns */
+  background: #16191C;
+  height: 100vh;
+  color: white;
+}
+
+.image {
+  max-height: 100vh;
+  object-fit: contain;
+}
+
+.input {
+  padding: 20vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.question-account {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
   
 .ButtonWithBackground {
   padding: 10px;
@@ -40,9 +40,11 @@ html, body {
 }
 
 .ButtonWithBackground:active {
+  cursor: pointer;
   transform: scale(.9, .9);
 }
 
 .ButtonWithBackground:hover {
+  cursor: pointer;
   transform: scale(.9, .9);
 }
