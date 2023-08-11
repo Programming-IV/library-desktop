@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background: #16191C;
+    height: 100vh;
+    color: white;
+    font-family: 'Segoe UI', Roboto;
+  }
+  
+  .image {
+    max-height: 100vh;
+    object-fit: contain;
+  }
+  
+  .input {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button-container {
+    grid-column: auto;
+    margin-top: 10px;
+    height: 25vh;
+    transform: scale(.7,.7);
+  }
+  
+  .Green-Button {
+    padding: 10px;
+    width: 50vh;
+    height: 7vh;
+    background-color: #406F2F;
+    color: white;
+    font-size: x-large;
+  }
+  
+  .Green-Button:active {
+    transform: scale(.9, .9);
+  }
+  
+  .Green-Button:hover {
+    cursor: pointer;
+    transform: scale(.9, .9);  
+  }
+  
+  .White-Button {
+    padding: 10px;
+    width: 50vh;
+    height: 7vh;
+    background-color: white;
+    font-size: x-large;
+  }
+  
+  .White-Button:active {
+    transform: scale(.9, .9);
+  }
+  
+  .White-Button:hover {
+    cursor: pointer;
+    transform: scale(.9, .9);  
+  }
+  

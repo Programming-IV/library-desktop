@@ -1,0 +1,16 @@
+.ButtonWithBackground {
+    padding: 10px;
+    width: 50vh;
+    height: 7vh;
+    background: linear-gradient(0deg, rgba(206, 100, 22, 0.40) 0%, rgba(206, 100, 22, 0.40) 100%), rgba(24, 95, 90, 0.80);
+    color: white;
+    font-size: x-large;
+}
+
+.ButtonWithBackground:active {
+    transform: scale(.9, .9);
+}
+
+.ButtonWithBackground:hover {
+    transform: scale(.9, .9);
+}

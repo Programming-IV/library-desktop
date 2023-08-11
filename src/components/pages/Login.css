@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background: #16191C;
+    height: 100vh;
+    color: white;
+    font-family: 'Segoe UI', Roboto;
+  }
+  
+  .image {
+    max-height: 100vh;
+    object-fit: contain;
+  }
+  
+  .input {
+    padding: 20vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .question-account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.ButtonWithBackground {
+  padding: 10px;
+  width: 50vh;
+  height: 7vh;
+  background: linear-gradient(0deg, rgba(206, 100, 22, 0.40) 0%, rgba(206, 100, 22, 0.40) 100%), rgba(24, 95, 90, 0.80);
+  color: white;
+  font-size: x-large;
+}
+
+.ButtonWithBackground:active {
+  transform: scale(.9, .9);
+}
+
+.ButtonWithBackground:hover {
+  transform: scale(.9, .9);
+}
