@@ -1,0 +1,16 @@
+.ButtonWithoutBackground {
+    background-color: transparent;
+    border: none;   
+    color: rgba(255, 255, 255, 0.40);;
+    font-weight: bold;
+}
+
+.ButtonWithoutBackground:active {
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
+
+.ButtonWithoutBackground:hover {
+    cursor: pointer;
+    transform: scale(.9, .9);
+}

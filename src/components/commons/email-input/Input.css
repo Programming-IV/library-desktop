@@ -1,0 +1,19 @@
+.inputField {
+    display: flex;
+    border-radius: 6px;
+    border-color: transparent;
+    background: #1E2126;
+    padding: 10px;
+    font-size: medium;
+    color: rgba(255, 255, 255, 0.40);
+    width: 50vh;
+    height: 4vh;
+}
+
+.container-input {
+    color: white;
+}
+
+.inputField:hover {
+    border-color: white;
+}
